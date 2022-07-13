@@ -1,0 +1,1 @@
+Get-ChildItem .\powerpoint -Directory -Exclude _template | ForEach-Object -Process { Compress-Archive -Path ($_.FullName + "/*") , .\powerpoint\_template\* -DestinationPath ($_.Name + ".ppam") -Force }
