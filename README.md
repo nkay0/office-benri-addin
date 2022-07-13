@@ -1,5 +1,6 @@
 # office-benri-addin
-Microsoft Officeの便利なアドインです。
+
+Microsoft Officeの便利なアドインです。Office2016以降を対象としています。
 
 ## 開発参加者募集中
 
@@ -19,7 +20,7 @@ Microsoft Officeの便利なアドインです。
 1. `%APPDATA%\Microsoft\AddIns`（`C:\Users\ユーザー名\AppData\Roaming\Microsoft\AddIns`）に`.ppam`ファイルを入れます。
 2. `ファイル` > Powerpointの`オプション` > `アドイン`タブ > 管理：Powerpointアドイン > `設定(G)`　を開いて、読み込むアドインを設定する画面を開きます。
 3. ここで、追加した`.ppam`が一覧になければ`新規追加(A)`から追加します。
-4. 追加したアドインにチェックを入れて`閉じる(C)`と使用できるようになります。
+4. 追加したアドインにチェックを入れて`閉じる(C)`と、リボンに新しいタブが出現し、使用できるようになります。
 
 #### 機能紹介: `Positions.ppam`
 
