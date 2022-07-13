@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+    <!-- Align -->
+    <Relationship Id="AlignLeftIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AlignLeftIcon.png"/>
+    <Relationship Id="AlignHorizontalIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AlignHorizontalIcon.png"/>
+    <Relationship Id="AlignRightIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AlignRightIcon.png"/>
+    <Relationship Id="AlignTopIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AlignTopIcon.png"/>
+    <Relationship Id="AlignVerticalIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AlignVerticalIcon.png"/>
+    <Relationship Id="AlignBottomIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AlignBottomIcon.png"/>
+    <Relationship Id="AlignCenterIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AlignCenterIcon.png"/>
+    <Relationship Id="AlignRadialIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AlignRadialIcon.png"/>
+
+    <!-- Adjoin -->
+    <Relationship Id="AdjoinHorizontalIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AdjoinHorizontalIcon.png"/>
+    <Relationship Id="AdjoinAlignHorizontalIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AdjoinAlignHorizontalIcon.png"/>
+    <Relationship Id="AdjoinVerticalIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AdjoinVerticalIcon.png"/>
+    <Relationship Id="AdjoinAlignVerticalIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/AdjoinAlignVerticalIcon.png"/>
+
+    <!-- Distribute -->
+    <Relationship Id="DistributeHorizontalIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/DistributeHorizontalIcon.png"/>
+    <Relationship Id="DistributeVerticalIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/DistributeVerticalIcon.png"/>
+    <Relationship Id="DistributeCenterIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/DistributeCenterIcon.png"/>
+
+    <!-- Reorder -->
+    <Relationship Id="SwapIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/SwapIcon.png"/>
+
+    <!-- Rotation -->
+    <Relationship Id="ResetRotationIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResetRotationIcon.png"/>
+    <Relationship Id="CopyRotationIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/CopyRotationIcon.png"/>
+    <Relationship Id="ConcentrateOrientIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ConcentrateOrientIcon.png"/>
+
+    <!-- ZOrder -->
+    <Relationship Id="MoveFrontIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/MoveFrontIcon.png"/>
+    <Relationship Id="MoveBackIcon" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/MoveBackIcon.png"/>
+</Relationships>

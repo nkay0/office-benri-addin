@@ -1,0 +1,52 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="positionsRibbonOnLoad">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="Positions" label="配置" keytip="P">
+                <group id="Align" label="揃える" image="AlignLeftIcon">
+                    <button id="AlignLeft" onAction="AlignLeft" label="左揃え" image="AlignLeftIcon" size="large"/>
+                    <button id="AlignHorizontal" onAction="AlignHorizontal" label="水平揃え" image="AlignHorizontalIcon" size="large"/>
+                    <button id="AlignRight" onAction="AlignRight" label="右揃え" image="AlignRightIcon" size="large"/>
+                    <button id="AlignTop" onAction="AlignTop" label="上揃え" image="AlignTopIcon" size="large"/>
+                    <button id="AlignVertical" onAction="AlignVertical" label="垂直揃え" image="AlignVerticalIcon" size="large"/>
+                    <button id="AlignBottom" onAction="AlignBottom" label="下揃え" image="AlignBottomIcon" size="large"/>
+                    <button id="AlignCenter" onAction="AlignCenter" label="中心揃え" image="AlignCenterIcon" size="large"/>
+                    <button id="AlignRadial" onAction="AlignRadial" label="半径揃え" image="AlignRadialIcon" size="large"/>
+                </group>
+                <group id="Adjoin" label="並べる" image="AdjoinAlignHorizontalIcon">
+                    <button id="AdjoinHorizontal" onAction="AdjoinHorizontal" label="水平並べ" image="AdjoinHorizontalIcon" size="large"/>
+                    <button id="AdjoinAlignHorizontal" onAction="AdjoinAlignHorizontal" label="水平並べ揃え" image="AdjoinAlignHorizontalIcon" size="large"/>
+                    <button id="AdjoinVertical" onAction="AdjoinVertical" label="垂直並べ" image="AdjoinVerticalIcon" size="large"/>
+                    <button id="AdjoinAlignVertical" onAction="AdjoinAlignVertical" label="垂直並べ揃え" image="AdjoinAlignVerticalIcon" size="large"/>
+                </group>
+                <group id="Distribute" label="等間隔" image="DistributeHorizontalIcon">
+                    <button id="DistributeHorizontal" onAction="DistributeHorizontal" label="水平方向に等間隔配置" image="DistributeHorizontalIcon" size="large"/>
+                    <button id="DistributeVertical" onAction="DistributeVertical" label="垂直方向に等間隔配置" image="DistributeVerticalIcon" size="large"/>
+                    <button id="DistributeCenter" onAction="DistributeCenter" label="等間隔配置" image="DistributeCenterIcon" size="large"/>
+                    <checkBox id="DistributeByCenter" label="中心間距離を等しくする" getPressed="DistributeByCenter_getPressed" onAction="DistributeByCenterChange" />
+                </group>
+                <group id="Reorder" label="順序" image="SwapIcon">
+                    <button id="Swap" onAction="Swap" label="位置交換" image="SwapIcon" size="large"/>
+                    <separator id="separator1"></separator>
+                    <checkBox id="SwapRef1" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                    <checkBox id="SwapRef4" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                    <checkBox id="SwapRef7" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                    <checkBox id="SwapRef2" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                    <checkBox id="SwapRef5" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                    <checkBox id="SwapRef8" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                    <checkBox id="SwapRef3" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                    <checkBox id="SwapRef6" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                    <checkBox id="SwapRef9" label=" " getPressed="SwapRef_getPressed" onAction="SwapRefChange" />
+                </group>
+                <group id="Rotation" label="回転" image="CopyRotationIcon">
+                    <button id="ResetRotation" onAction="ResetRotation" label="角度0°" image="ResetRotationIcon" size="large"/>
+                    <button id="CopyRotation" onAction="CopyRotation" label="角度揃え" image="CopyRotationIcon" size="large"/>
+                    <button id="ConcentrateOrient" onAction="ConcentrateOrient" label="向き集中" image="ConcentrateOrientIcon" size="large"/>
+                </group>
+                <group id="ZOrder" label="重ね順" image="MoveFrontIcon">
+                    <button id="MoveFront" onAction="MoveFront" label="最前面" image="MoveFrontIcon" size="large"/>
+                    <button id="MoveBack" onAction="MoveBack" label="最背面" image="MoveBackIcon" size="large"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
