@@ -1,0 +1,45 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="resizeRibbonOnLoad">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="Resize" label="リサイズ" keytip="R">
+                <group id="resizeSetting" label="リサイズ設定" imageMso="ObjectBringToFront">
+                    <checkBox id="ResizeAspect" label="縦横比固定" getPressed="ResizeAspect_getPressed" onAction="ResizeAspectChange" />
+                    <separator id="separator1"></separator>
+                    <checkBox id="ResizeAnchor1" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                    <checkBox id="ResizeAnchor4" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                    <checkBox id="ResizeAnchor7" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                    <checkBox id="ResizeAnchor2" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                    <checkBox id="ResizeAnchor5" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                    <checkBox id="ResizeAnchor8" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                    <checkBox id="ResizeAnchor3" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                    <checkBox id="ResizeAnchor6" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                    <checkBox id="ResizeAnchor9" label=" " getPressed="ResizeAnchor_getPressed" onAction="ResizeAnchorChange" />
+                </group>
+                <group id="Stretch" label="位置合わせ伸縮" image="ResizeStretchLeft">
+                    <button id="StretchLeft" onAction="StretchLeft" label="左揃え" image="ResizeStretchLeft" size="large"/>
+                    <button id="StretchRight" onAction="StretchRight" label="右揃え" image="ResizeStretchRight" size="large"/>
+                    <button id="StretchTop" onAction="StretchTop" label="上揃え" image="ResizeStretchTop" size="large"/>
+                    <button id="StretchBottom" onAction="StretchBottom" label="下揃え" image="ResizeStretchBottom" size="large"/>
+                </group>
+                <group id="Equalize" label="同じサイズ" image="ResizeSameSize">
+                    <button id="ResizeToSameWidth" onAction="ResizeToSameWidth" label="同じ幅" image="ResizeSameWidth" size="large"/>
+                    <button id="ResizeToSameHeight" onAction="ResizeToSameHeight" label="同じ高さ" image="ResizeSameHeight" size="large"/>
+                    <button id="ResizeToSameHeightAndWidth" onAction="ResizeToSameHeightAndWidth" label="同じサイズ" image="ResizeSameSize" size="large"/>
+                </group>
+                <group id="ResizeByRatio" label="比でリサイズ" image="ResizeWidthByRatio">
+                    <button id="ResizeWidthByRatio" onAction="ResizeWidthByRatio" label="比で幅変更" image="ResizeWidthByRatio" size="large"/>
+                    <button id="ResizeHeightByRatio" onAction="ResizeHeightByRatio" label="比で高さ変更" image="ResizeHeightByRatio" size="large"/>
+                </group>
+                <group id="Match" label="正方形化" image="MatchWidthToHeight">
+                    <button id="MatchHeightToWidth" onAction="MatchHeightToWidth" label="高さ変更" image="MatchHeightToWidth" size="large"/>
+                    <button id="MatchWidthToHeight" onAction="MatchWidthToHeight" label="幅変更" image="MatchWidthToHeight" size="large"/>
+                </group>
+                <group id="FitToSlide" label="スライドサイズ化" image="ResizeFitToFill">
+                    <button id="FitToWidth" onAction="FitToWidth" label="スライド幅" image="ResizeFitToWidth" size="large"/>
+                    <button id="FitToHeight" onAction="FitToHeight" label="スライド高さ" image="ResizeFitToHeight" size="large"/>
+                    <button id="FitToFill" onAction="FitToFill" label="スライドサイズ" image="ResizeFitToFill" size="large"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

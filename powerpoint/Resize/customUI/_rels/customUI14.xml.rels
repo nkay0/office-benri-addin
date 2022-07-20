@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+    <!-- Stretch -->
+    <Relationship Id="ResizeStretchLeft" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeStretchLeft.png"/>
+    <Relationship Id="ResizeStretchRight" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeStretchRight.png"/>
+    <Relationship Id="ResizeStretchTop" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeStretchTop.png"/>
+    <Relationship Id="ResizeStretchBottom" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeStretchBottom.png"/>
+
+    <!-- Equalize -->
+    <Relationship Id="ResizeSameWidth" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeSameWidth.png"/>
+    <Relationship Id="ResizeSameHeight" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeSameHeight.png"/>
+    <Relationship Id="ResizeSameSize" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeSameSize.png"/>
+
+    <!-- ResizeByRatio -->
+    <Relationship Id="ResizeWidthByRatio" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeWidthByRatio.png"/>
+    <Relationship Id="ResizeHeightByRatio" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeHeightByRatio.png"/>
+
+    <!-- Match -->
+    <Relationship Id="MatchWidthToHeight" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/MatchWidthToHeight.png"/>
+    <Relationship Id="MatchHeightToWidth" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/MatchHeightToWidth.png"/>
+
+    <!-- FitToSlide -->
+    <Relationship Id="ResizeFitToWidth" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeFitToWidth.png"/>
+    <Relationship Id="ResizeFitToHeight" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeFitToHeight.png"/>
+    <Relationship Id="ResizeFitToFill" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="images/ResizeFitToFill.png"/>
+</Relationships>
